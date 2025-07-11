@@ -10,7 +10,7 @@ custom_css = """
         font-family: 'Courier New', Courier, monospace;
     }
     /* Custom style for all tabs */
-    .stTabs > .tablist > .react-tabs__tab {
+    .stTabs > .tablist > .st-emotion-cache-bfgnao {
         background-color: #e8e8e8;
         color: #f50202;
         font-family: 'Courier New', Courier, monospace;
