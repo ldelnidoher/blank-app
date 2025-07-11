@@ -18,7 +18,7 @@ custom_css = """
 </style>
 """
 
-
+st.markdown(custom_css, unsafe_allow_html=True)
 # Example usage of tabs
 tab1, tab2 = st.tabs(["Tab 1", "Tab 2"])
 
@@ -29,4 +29,4 @@ with tab2:
     st.write("Content in tab 2")
 
 
-st.markdown(custom_css, unsafe_allow_html=True)
+
